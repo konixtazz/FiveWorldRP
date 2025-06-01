@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const isOpen = content.style.display === 'block';
             content.style.display = isOpen ? 'none' : 'block';
             toggleIcon.style.transform = isOpen ? 'rotate(0deg)' : 'rotate(180deg)';
-            section.style.backgroundColor = isOpen ? 'rgba(255, 215, 0, 0.1)' : 'rgba(255, 215, 0, 0.2)';
+            section.style.backgroundColor = isOpen ? 'rgba(37, 120, 86, 0.1)' : 'rgba(37, 120, 86, 0.2)';
         });
     });
 
